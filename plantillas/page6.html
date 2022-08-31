@@ -1,0 +1,38 @@
+{% extends 'base/base.html' %}
+
+{% block titulo %}
+    Documentación
+{% endblock %}
+
+{% block nombre %}
+    Documentación
+{% endblock %}
+
+{% block contenido %}
+    <div class="menubar">
+        <font>|||</font>
+        <nav class="navegar" id="move">
+            <ul class="menu">
+                <li> <a href="/"> MI PROYECTO </a> </li>
+                <li> <a> | </a> </li>
+                <li> <a href="page1"> Investigación </a> </li>
+                <li> <a href="page2"> Tutorial </a> </li>
+                <li> <a href="page3"> Descargas </a>
+                    <ul class="submenu">
+                        <li> <a href="https://drive.google.com/drive/folders/1tI1Ac3cLaD0fPhJEdPGz9iWsTulkovMR?usp=sharing"> Código1 </a> </li>
+                        <li> <a href="https://docs.google.com/document/d/11Qn_1JpEUjLZ7zagWULdYK2PNQtASkyMHcjDEVAr2-A/edit?usp=sharing"> Código2 </a> </li>
+                    </ul>
+                </li>
+                <li> <a href="page4?error=error"> Errores </a>
+                    <ul class="submenu">
+                        <li> <a href="page4?error=error01"> Error01 </a> </li>
+                        <li> <a href="page4?error=error02"> Error02 </a> </li>
+                        <li> <a href="page4?error=error03"> Error03 </a> </li>
+                    </ul>
+                </li>
+                <li> <a href="page5"> Documentación </a> </li>
+                <li> <a> | </a> </li>
+            <ul></ul>
+        </nav>
+    </div>
+{% endblock %}

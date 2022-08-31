@@ -1,0 +1,305 @@
+
+            body{
+                background-color: cyan;
+                font-style: normal;
+                color: black;
+            }
+            h1{
+                margin: 10px 10px;
+                font-style: normal;
+                font-size: xx-large;
+                font: bold;
+            }
+            h2{
+                margin: 10px 10px;
+                font-style: normal;
+                font-size: x-large;
+                font: bold;
+            }
+            h3{
+                margin: 10px 10px;
+                font-style: normal;
+                font-size: large;
+            }
+            h4{
+                margin: 10px 10px;
+                font-style: normal;
+                font-size: medium;
+            }
+            h5{
+                margin: 10px 10px;
+                font-style: normal;
+                font-size: small;
+            }
+            h6{
+                margin: 10px 10px;
+                font-style: normal;
+                font-size: x-small;
+            }
+            *{
+                margin: 0px;
+                padding: 0px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                text-align: justify;
+            }
+            .menubar nav{
+                display: none;
+            }
+            .menubarspace:hover nav{
+                display: inline-block;
+            }
+            .menubarspace:hover font{
+                color: cyan;
+            }
+            .menubar{
+                margin: 30px;
+                background: black;
+            }
+            .menubarspace{
+                background: cyan;
+                height: 80px;
+            }
+            .menubar font{
+                display: inline-block;
+                font-size: medium;
+                background: black;
+                color: white;
+                padding: 10px 10px;
+            }
+            nav{
+                width: 1000px;
+            }
+            .navegar li a{
+                color: white;
+                border-width: 2px;
+                border-color: white;
+            }
+            .navegar ul{
+                list-style: none;
+            }
+            .menu > li{
+                position: relative;
+                display: inline-block;
+            }
+            .menu > li > a{
+                display: block;
+                padding: 10px 10px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+            }
+            .menu > li > a:hover{
+                color: cyan;
+                transition: all .8s;
+            }
+            a{
+                font-size: medium;
+            }
+            .submenu{
+                position: absolute;
+                background: white;
+                width: 140%;
+                visibility: hidden;
+                opacity: 0;
+            }
+            .submenu li a{
+                display: block;
+                padding: 10px 10px;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+            }
+            .menu > li:hover .submenu{
+                visibility: visible;
+                opacity: 1;
+                transition: all .8s;
+            }
+            .submenu > li > a:hover{
+                background: cyan;
+                transition: all .8s;
+            }
+            .download{
+                background-color: black;
+                margin: 30px 30px;
+                padding: 10px;
+                width: 100px;
+                height: 45px;
+            }
+            .download a{
+                color: cyan;
+                text-decoration: none;
+                font-size: x-large;
+            }
+            .blackblock{
+                display: block;
+                background-color: black;
+                margin: 30px 30px;
+                padding: 10px;
+                box-shadow: 2px 2px 4px white;
+            }
+            .blackblock h6{
+                color: white;
+                font-size: medium;
+            }
+            .blackblock h5{
+                text-shadow: 1px 1px 2px white;
+                color: cyan;
+                font-size: x-large;
+                font: bold;
+            }
+            .blackblock h4{
+                text-shadow: 1px 1px 2px white;
+                color: cyan;
+                font-size: xx-large;
+                font: bold;
+            } 
+            .whiteblock{
+                display: block;
+                background-color: white;
+                margin: 30px 30px;
+                padding: 10px;
+                box-shadow: 2px 2px 4px black;
+            }
+            .whiteblock h6{
+                color: black;
+                font-size: medium;
+            }
+            .whiteblock h5{
+                text-shadow: 1px 1px 2px black;
+                color: cyan;
+                font-size: x-large;
+                font: bold;
+            }
+            .whiteblock h4{
+                text-shadow: 1px 1px 2px black;
+                color: cyan;
+                font-size: xx-large;
+                font: bold;
+            }
+            *::-webkit-scrollbar{
+                width: 20px;
+                background: cyan;
+            }
+            *::-webkit-scrollbar-thumb{
+                width: 18px;
+                background: rgba(255,255,255,.8);
+                border-radius: 10px;
+                border: 5px solid cyan;
+            }
+            *::-webkit-scrollbar-thumb:hover{
+                background: rgba(255,255,255,.9);
+            }
+            .copyfield span{
+                background: white;
+                height: 45px;
+                margin: 10px;
+                margin-right: 0px;
+                padding: 10px;
+                font-size: large;
+                border-radius: 4px;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border: 2px solid black;
+                border-right: 1px solid black;
+                box-shadow: 2px 2px 4px black;
+            }
+            .copyfield button{
+                background: cyan;
+                height: 45px;
+                width: 75px;
+                margin: 10px;
+                margin-left: 0px;
+                padding: 10px;
+                font-size: large;
+                border-radius: 4px;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                border: 2px solid black;
+                border-left: 1px solid black;
+                box-shadow: 2px 2px 4px black;
+            }
+            .blackblock ul{
+                list-style: none;
+            }
+            .image-xsmall{
+                width: 160px;
+                height: 90px;
+            }
+            .image-small{
+                width: 320px;
+                height: 180px;
+            }
+            .image-medium{
+                width: 480px;
+                height: 270px;
+            }
+            .image-medium2{
+                width: 470px;
+                height: 264px;
+            }
+            .image-large{
+                width: 640px;
+                height: 360px;
+            }
+            .image-xlarge{
+                width: 800px;
+                height: 450px;
+            }
+            .texto-desplegable{
+                display: block;
+                background-color: black;
+                padding: 2px 10px;
+                margin: 5px 30px;
+                margin-bottom: 0px;
+                box-shadow: 2px 2px 4px white;
+                font-family: Helvetica;
+            }
+            .texto-desplegable > font{
+                background: black;
+                display: none;
+                margin-left: 30px;
+            }
+            .texto-desplegable > font > h6{
+                color: white;
+                font-size: small;
+            }
+            .texto-desplegable h5{
+                color: white;
+                font-size: medium;
+            }
+            .texto-desplegable:hover > font{
+                display: block;
+            }
+            .texto-desplegable:hover > h5{
+                color: cyan;
+            }
+            .subtexto-desplegable{
+                display: block;
+                background-color: black;
+                font-family: Helvetica;
+            }
+            .subtexto-desplegable font{
+                font-size: small;
+                background: black;
+                display: none;
+                margin-left: 30px;
+            }
+            .subtexto-desplegable > font > h6{
+                color: white;
+                font-size: small;
+            }
+            .subtexto-desplegable h5{
+                color: white;
+                font-size: medium;
+            }
+            .subtexto-desplegable:hover > font{
+                display: block;
+            }
+            .subtexto-desplegable:hover > h5{
+                color: cyan;
+            }
+            .menubar{
+                position: absolute;
+            }
